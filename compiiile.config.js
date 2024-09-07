@@ -1,8 +1,8 @@
-//import printIntegration from "@compiiile/compiiile-print"
+import printIntegration from "@compiiile/compiiile-print"
 
 export default {
-//    integrations:[printIntegration()],
+	integrations:[printIntegration()],
 	title: "Decima courses",
 	description: "my learning platform with all my resources",
-	logo: "logo.png"
+	logo: "./logo.png"
 }
