@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@compiiile/compiiile-print": "^1.0.5",
+    "@compiiile/compiiile-pro": "^1.1.6"
+  }
+}

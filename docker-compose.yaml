@@ -1,0 +1,11 @@
+services:
+  compiiile-dev:
+    image: node:lts
+    entrypoint: bash -c "yarn global add @compiiile/compiiile-pro && /usr/local/bin/compiiile-pro dev --host 0.0.0.0 --port 4321 --verbose"
+    env_file:
+      - .env
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - 4321:4321
